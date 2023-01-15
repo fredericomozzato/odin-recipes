@@ -3,7 +3,7 @@ $bread-color: rgb(226, 165, 115);
 body {
     font-family: sans-serif;
     font-size: large;
-    background-color:rgb(10, 10, 10);
+    background-color:rgb(29, 29, 29);
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
 
 .title {
     font-size: 71px;
-    color:black;
+    color:rgb(28, 28, 28);
     padding: 15px;
     width: fit-content;
     margin: auto;
@@ -44,15 +44,49 @@ body {
 }
 
 .btn {
+    margin: auto;
     color: white;
     font-size: larger;
     width: 350px;
     height: 40px;
+    border-radius: 35px;
     background-color: $bread-color;
     border: 1px solid $bread-color;
 }
 
 .btn:hover {
-    border: 1px solid lightgrey;
-    box-shadow: 1px 1px 2px gray;
+    background-color: rgb(240, 175, 122);
+}
+
+.recipe-title {
+    margin: auto;
+    color: white;
+    background-color: $bread-color;
+    border-radius: 35px;
+    padding: 15px;
+    max-width: 500px;
+}
+
+.description {
+    margin: auto;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.ingredients {
+    text-align: left;
+    line-height: 30px;
+    padding-left: 90px;
+}
+
+.instructions {
+    max-width: 400px;
+    text-align: justify;
+    line-height: 30px;
+    padding-left: 90px;
+}
+
+.subtitle {
+    font-weight: bolder;
+    font-size: larger;
 }
